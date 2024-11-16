@@ -1,0 +1,24 @@
+POST http://127.0.0.1:3000/auth/register
+Content-Type: application/json
+
+{
+    "name": "prueba1",
+    "email": "asdasfa@gmail.com",
+    "password": "1234567891sd0"
+}
+
+### Login sin conexion a BBD
+
+POST http://127.0.0.1:3000/auth/login
+Content-Type: application/json
+
+ {
+    "name": "STEEVEN1",
+    "email": "asdasfa@gmail.com",
+    "password": "1234567891sd0"
+}
+
+### users
+
+GET  http://127.0.0.1:3000/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MzExMjY3NzUsImV4cCI6MTczMTEyNjgzNX0.vOvyZ4EAhQW9zweKvykcKcEgVyhTjMINQZjxYUv1RJ0
